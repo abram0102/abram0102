@@ -24,13 +24,13 @@
   />
 </p>
 
-## About
+About
 
-I build reliable software across **full-stack products, backend APIs, search systems, and AI-enabled workflows**. I am pursuing an **M.S. in Computer Science at Northeastern University** and expect to graduate in **May 2027**.
+I build reliable software across full-stack products, backend APIs, search systems, and AI-enabled workflows. I am pursuing an M.S. in Computer Science at Northeastern University and expect to graduate in May 2027.
 
-My recent work spans **Next.js, Express.js, Spring Boot, FastAPI, MongoDB, MySQL, Redis, AWS, Docker, automated testing, and CI/CD**.
+My recent work spans Next.js, Express.js, Spring Boot, FastAPI, MongoDB, MySQL, Redis, AWS, Docker, automated testing, and CI/CD.
 
-## Impact at a glance
+Impact at a glance
 
 <table>
   <tr>
@@ -53,57 +53,82 @@ My recent work spans **Next.js, Express.js, Spring Boot, FastAPI, MongoDB, MySQL
   </tr>
 </table>
 
-## Engineering experience
+Engineering experience
 
-### Fashion Index · Full Stack Developer Intern
+Fashion Index · Full Stack Developer Intern
 
-- Helped launch the **Fashion Index 3.0** platform within a four-developer team, owning the B2B advertising module across **Next.js, Express.js, MongoDB, and AWS S3**.
-- Designed a **six-state campaign lifecycle** with guarded transitions, role-aware moderation, scheduled expiry, unread queues, and MongoDB TTL cleanup.
-- Diagnosed a long-standing **JWT authentication defect** that blocked authorized uploads and strengthened backend authorization checks.
-- Redesigned **FastAPI + MongoDB** search and filtering APIs for a catalog with **50K+ products**.
-- Expanded release confidence with **Redux Toolkit checks, Jest, Supertest, regression testing, peer review, and production-build validation**.
+Helped launch the Fashion Index 3.0 platform within a four-developer team, owning the B2B advertising module across Next.js, Express.js, MongoDB, and AWS S3.
 
-### Wanglan General Technology · Software Engineer Intern
+Designed a six-state campaign lifecycle with guarded transitions, role-aware moderation, scheduled expiry, unread queues, and MongoDB TTL cleanup.
 
-- Developed **Java + Spring Boot REST APIs** for work orders, inventory, purchasing, authentication, validation, and pagination.
-- Optimized **MySQL + Redis** access paths through indexing, caching, batch operations, and query refactoring, reducing average latency by **23%**.
-- Supported React-based factory dashboards through DTO validation, service orchestration, and DAO-layer implementation.
-- Used **JUnit, integration testing, Docker, GitHub Actions, CI/CD, and code review**, maintaining **90% coverage** across assigned modules.
+Diagnosed a long-standing JWT authentication defect that blocked authorized uploads and strengthened backend authorization checks.
 
-## Featured projects
+Redesigned FastAPI + MongoDB search and filtering APIs for a catalog with 50K+ products.
+
+Expanded release confidence with Redux Toolkit checks, Jest, Supertest, regression testing, peer review, and production-build validation.
+
+Wanglan General Technology · Software Engineer Intern
+
+Developed Java + Spring Boot REST APIs for work orders, inventory, purchasing, authentication, validation, and pagination.
+
+Optimized MySQL + Redis access paths through indexing, caching, batch operations, and query refactoring, reducing average latency by 23%.
+
+Supported React-based factory dashboards through DTO validation, service orchestration, and DAO-layer implementation.
+
+Used JUnit, integration testing, Docker, GitHub Actions, CI/CD, and code review, maintaining 90% coverage across assigned modules.
+
+Featured projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 Task Tracker Agent
+🤖 Task Tracker Agent
 
 Transforms text and voice input into structured tasks with due time, category, priority, people, location, and status.
 
-**Highlights**
+Highlights
 
-- FastAPI service and SQLite persistence
-- OpenAI API and LangChain prompt workflows
-- Rule-based validation and missing-field inference
-- Search, CRUD, completion tracking, and task history
+FastAPI service and SQLite persistence
 
-**Stack:** `Python` `FastAPI` `LangChain` `OpenAI API` `SQLite`
+OpenAI API and LangChain prompt workflows
+
+Rule-based validation and missing-field inference
+
+Search, CRUD, completion tracking, and task history
+
+Stack: Python FastAPI LangChain OpenAI API SQLite
+
+<p>
+  <a href="https://github.com/abram0102/Task-Tracker-Agent">
+    <img src="https://img.shields.io/badge/View_Repository-111827?style=flat-square&logo=github&logoColor=white" alt="Task Tracker Agent repository" />
+  </a>
+</p>
 
 </td>
 <td width="50%" valign="top">
 
-### 🐾 Pet Adoption Platform
+🐾 Pet Adoption Platform
 
 A full-stack adoption platform covering browsing, filtering, favorites, adoption records, authentication, and cloud release.
 
-**Highlights**
+Highlights
 
-- Released to **200+ Northeastern student users**
-- Improved page responsiveness by **27%**
-- Cached search results and normalized favorites state
-- Indexed MongoDB collections for common workflows
+Released to 200+ Northeastern student users
 
-**Stack:** `React` `Node.js` `Express.js` `MongoDB` `Redux Toolkit Query` `GCP`
+Improved page responsiveness by 27%
+
+Cached search results and normalized favorites state
+
+Indexed MongoDB collections for common workflows
+
+Stack: React Node.js Express.js MongoDB Redux Toolkit Query GCP
+
+<p>
+  <a href="https://github.com/abram0102/PetAdoption">
+    <img src="https://img.shields.io/badge/View_Repository-111827?style=flat-square&logo=github&logoColor=white" alt="Pet Adoption Platform repository" />
+  </a>
+</p>
 
 </td>
 </tr>
@@ -111,23 +136,32 @@ A full-stack adoption platform covering browsing, filtering, favorites, adoption
 <tr>
 <td width="50%" valign="top">
 
-### 📱 Android Task Tracker
+💰 Saving App
 
-A mobile task-management application supporting creation, editing, status tracking, offline persistence, and cloud synchronization.
+An Android application built with modern Kotlin tooling, combining a declarative interface, structured application architecture, local persistence, asynchronous operations, and cloud integration.
 
-**Highlights**
+Highlights
 
-- MVVM architecture
-- Jetpack Compose interface
-- Room-based offline persistence
-- Kotlin Coroutines and AWS Amplify synchronization
+MVVM architecture
 
-**Stack:** `Kotlin` `Jetpack Compose` `Room` `AWS Amplify`
+Jetpack Compose interface
+
+Room-based local persistence
+
+Kotlin Coroutines and AWS Amplify integration
+
+Stack: Kotlin Jetpack Compose Room Coroutines AWS Amplify
+
+<p>
+  <a href="https://github.com/abram0102/Saving-App">
+    <img src="https://img.shields.io/badge/View_Repository-111827?style=flat-square&logo=github&logoColor=white" alt="Saving App repository" />
+  </a>
+</p>
 
 </td>
 <td width="50%" valign="top">
 
-### 🌐 Personal Portfolio
+🌐 Personal Portfolio
 
 A public portfolio for presenting engineering experience, projects, and technical skills.
 
@@ -140,15 +174,13 @@ A public portfolio for presenting engineering experience, projects, and technica
   </a>
 </p>
 
-**Focus:** responsive presentation, project discovery, and a clear recruiter-facing overview of my work.
+Focus: responsive presentation, project discovery, and a clear recruiter-facing overview of my work.
 
 </td>
 </tr>
 </table>
 
-> Project source buttons can be added to the first three cards after their exact public repository names are confirmed.
-
-## Technology stack
+Technology stack
 
 <p>
   <strong>Languages</strong><br /><br />
@@ -165,7 +197,7 @@ A public portfolio for presenting engineering experience, projects, and technica
   <img src="https://skillicons.dev/icons?i=mysql,mongodb,redis,sqlite,aws,gcp,docker,githubactions,git&perline=10" alt="Data cloud and delivery tools" />
 </p>
 
-## GitHub activity
+GitHub activity
 
 <p align="center">
   <img
@@ -176,6 +208,11 @@ A public portfolio for presenting engineering experience, projects, and technica
 </p>
 
 <p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=abram0102&show_icons=true&hide_border=true&bg_color=0B1020&title_color=9EA7FF&text_color=C9D1E3&icon_color=6EE7F7&ring_color=7C83FD&include_all_commits=true"
+    alt="GitHub statistics"
+    height="170"
+  />
   <img
     src="https://streak-stats.demolab.com?user=abram0102&theme=tokyonight&hide_border=true&background=0B1020"
     alt="GitHub contribution streak"
@@ -190,8 +227,6 @@ A public portfolio for presenting engineering experience, projects, and technica
     <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/abram0102/abram0102/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
-
----
 
 <p align="center">
   <sub>Open to 2027 new-grad Software Engineering, Backend, and Full-stack opportunities.</sub>
