@@ -177,11 +177,6 @@ A public portfolio for presenting engineering experience, projects, and technica
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=abram0102&show_icons=true&hide_border=true&bg_color=0B1020&title_color=9EA7FF&text_color=C9D1E3&icon_color=6EE7F7&ring_color=7C83FD&include_all_commits=true"
-    alt="GitHub statistics"
-    height="170"
-  />
-  <img
     src="https://streak-stats.demolab.com?user=abram0102&theme=tokyonight&hide_border=true&background=0B1020"
     alt="GitHub contribution streak"
     height="170"
