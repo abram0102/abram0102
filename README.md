@@ -153,9 +153,6 @@ A public portfolio for presenting engineering experience, projects, and technica
   <a href="https://abulamu-personal-website.vercel.app/">
     <img src="https://img.shields.io/badge/Live_Demo-6D5DFB?style=flat-square&logo=vercel&logoColor=white" alt="Live demo" />
   </a>
-  <a href="https://github.com/abram0102/Personal-Website">
-    <img src="https://img.shields.io/badge/Source-111827?style=flat-square&logo=github&logoColor=white" alt="Source code" />
-  </a>
 </p>
 
 **Focus:** responsive presentation, project discovery, and a clear recruiter-facing overview of my work.
