@@ -1,0 +1,78 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="50" y1="10" x2="1140" y2="295" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080C19"/>
+      <stop offset="0.53" stop-color="#111833"/>
+      <stop offset="1" stop-color="#081620"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="60" x2="1090" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C83FD"/>
+      <stop offset="0.52" stop-color="#A66CFF"/>
+      <stop offset="1" stop-color="#60E5F7"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(1035 30) rotate(136) scale(300 215)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60E5F7" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#60E5F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(120 295) rotate(-40) scale(345 230)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="17" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="300" rx="28" fill="url(#glowA)"/>
+  <rect width="1200" height="300" rx="28" fill="url(#glowB)"/>
+
+  <circle cx="72" cy="47" r="5.5" fill="#FF6B7A"/>
+  <circle cx="92" cy="47" r="5.5" fill="#FFD166"/>
+  <circle cx="112" cy="47" r="5.5" fill="#59E391"/>
+
+  <text x="72" y="112" fill="#8E97B4" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">
+    SOFTWARE ENGINEER
+  </text>
+  <text x="70" y="164" fill="#F8FAFF" font-family="Inter, Arial, sans-serif" font-size="43" font-weight="800">
+    ABULAMU ABULAJIANG
+  </text>
+  <rect x="72" y="188" width="530" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="72" y="230" fill="#CAD1E4" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500">
+    Full-stack • Backend APIs • Search Systems • AI Products
+  </text>
+  <text x="72" y="260" fill="#7D88A8" font-family="JetBrains Mono, Menlo, monospace" font-size="13">
+    Boston, MA  /  Northeastern University  /  May 2027
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="788" y="54" width="342" height="192" rx="17" fill="#0C1226" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <rect x="788" y="54" width="342" height="35" rx="17" fill="#141C37"/>
+    <circle cx="810" cy="72" r="4" fill="#FF6B7A"/>
+    <circle cx="825" cy="72" r="4" fill="#FFD166"/>
+    <circle cx="840" cy="72" r="4" fill="#59E391"/>
+    <text x="862" y="77" fill="#747F9F" font-family="JetBrains Mono, Menlo, monospace" font-size="11">engineer.ts</text>
+
+    <text x="812" y="121" fill="#7C83FD" font-family="JetBrains Mono, Menlo, monospace" font-size="14">const</text>
+    <text x="860" y="121" fill="#E7EAF4" font-family="JetBrains Mono, Menlo, monospace" font-size="14">profile = {</text>
+
+    <text x="832" y="149" fill="#8E97B4" font-family="JetBrains Mono, Menlo, monospace" font-size="14">focus:</text>
+    <text x="887" y="149" fill="#6EE7F7" font-family="JetBrains Mono, Menlo, monospace" font-size="14">"production"</text>
+
+    <text x="832" y="177" fill="#8E97B4" font-family="JetBrains Mono, Menlo, monospace" font-size="14">stack:</text>
+    <text x="887" y="177" fill="#C8A6FF" font-family="JetBrains Mono, Menlo, monospace" font-size="14">["Java", "TS",</text>
+    <text x="887" y="198" fill="#C8A6FF" font-family="JetBrains Mono, Menlo, monospace" font-size="14"> "Python", "AWS"],</text>
+
+    <text x="832" y="226" fill="#8E97B4" font-family="JetBrains Mono, Menlo, monospace" font-size="14">status:</text>
+    <text x="895" y="226" fill="#59E391" font-family="JetBrains Mono, Menlo, monospace" font-size="14">"shipping"</text>
+  </g>
+
+  <path d="M76 278C230 215 347 294 500 230C650 167 710 89 876 103C1011 114 1081 191 1153 147"
+        stroke="url(#accent)" stroke-opacity="0.72" stroke-width="2" stroke-linecap="round"/>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="298.5" rx="27.25" stroke="url(#accent)" stroke-opacity="0.34" stroke-width="1.5"/>
+</svg>

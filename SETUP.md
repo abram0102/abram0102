@@ -1,63 +1,61 @@
-# Setup Guide
+# Important setup notes
 
-This package is already customized for the GitHub username **`abram0102`**.
+## The repository must be named `abram0102`
 
-## 1. Create the profile repository
+GitHub only displays a Profile README when the public repository name exactly matches the username.
 
-On GitHub, create a new **public** repository named exactly:
+Your current repository name, `Personal_Profile`, is suitable for storing the files, but it will not automatically become the profile README repository.
+
+Recommended fix:
+
+1. Open `Personal_Profile`.
+2. Go to **Settings**.
+3. Under **Repository name**, rename it to:
 
 ```text
 abram0102
 ```
 
-The repository name must match the GitHub username for the README to appear on the profile.
+4. Confirm the rename.
 
-## 2. Upload the files
+After renaming, the final repository URL should be:
 
-Upload the contents of this package to the repository root while preserving the folder structure:
+```text
+https://github.com/abram0102/abram0102
+```
+
+The contribution-snake links in the README are already configured for that final location.
+
+## Upload or replace these files
 
 ```text
 README.md
-profile/banner.svg
+assets/banner.svg
 .github/workflows/snake.yml
 ```
 
-## 3. Enable the contribution snake
+## Generate the contribution snake
 
 1. Open the repository's **Actions** tab.
 2. Select **Generate contribution snake**.
 3. Click **Run workflow**.
-4. Wait for the workflow to finish.
-5. Refresh the GitHub profile.
+4. Wait for the run to finish and create the `output` branch.
 
-The workflow creates an `output` branch containing light- and dark-mode SVG animations. It will then refresh once per day.
+## Add exact source links for projects
 
-## 4. Recommended profile settings
+The current README includes full project descriptions for:
 
-Use these settings on the main GitHub profile:
+- Task Tracker Agent
+- Pet Adoption Platform
+- Android Task Tracker
+- Personal Portfolio
 
-- **Name:** Abulamu Abulajiang
-- **Bio:** Full-stack & Backend Software Engineer | M.S. CS @ Northeastern | May 2027
-- **Location:** Boston, MA
-- **Website:** https://abulamu-personal-website.vercel.app/
-- **LinkedIn:** Keep the link in the profile README
+The Personal Portfolio already has source and live-demo links.
 
-## 5. Pin repositories
+After the exact public repository names of the other projects are confirmed, add source buttons to those cards using:
 
-Pin up to six repositories that best demonstrate:
-
-1. A polished full-stack application
-2. A Java or Spring Boot backend project
-3. A Python or FastAPI project
-4. Testing, Docker, or CI/CD experience
-
-Avoid pinning empty, tutorial-only, duplicated, or poorly documented repositories. A recruiter should be able to understand each pinned project within 20–30 seconds.
-
-## 6. Optional edits
-
-The profile is intentionally recruiter-oriented rather than overly decorative. Good future upgrades include:
-
-- Replacing the selected-work descriptions with direct links after the public repository names are finalized
-- Adding live demos beside project repositories
-- Self-hosting GitHub Readme Stats if the public service becomes unreliable
-- Adding a public résumé only after removing any phone number or other information you do not want indexed publicly
+```html
+<a href="EXACT_REPOSITORY_URL">
+  <img src="https://img.shields.io/badge/Source-111827?style=flat-square&logo=github&logoColor=white" alt="Source code" />
+</a>
+```
