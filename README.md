@@ -151,7 +151,7 @@ A public portfolio for presenting engineering experience, projects, and technica
 
 <p>
   <a href="https://abulamu-personal-website.vercel.app/">
-    <img src="https://img.shields.io/badge/Live_Demo-6D5DFB?style=flat-square&logo=vercel&logoColor=white" alt="Live demo" />
+    <img src="https://img.shields.io/badge/Live_Demo-6D5DFB?style=flat-square&logo=vercel&logoColor=white" alt="Discover" />
   </a>
 </p>
 
