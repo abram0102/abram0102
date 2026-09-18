@@ -57,20 +57,20 @@ My recent work spans **Next.js, Express.js, Spring Boot, FastAPI, MongoDB, MySQL
 
 ### Fashion Index · Full Stack Developer Intern
 
-• Collaborated within a team of 4 developers paired with a senior developer mentor to launch the new Fashion Index 3.0 web platform, owning the B2B advertising module across **Next.js, Express.js, MongoDB, and AWS S3** so advertisers on a platform with 1,000+ registered brands could upload campaigns and admins could review submissions before live serving.
-• Designed the ad campaign lifecycle state machine with 6 statuses using centralized backend transition guards, role-aware moderation controls, unread admin queues, scheduled expiry jobs, and **MongoDB TTL cleanup** to support review and retention workflows.
-• Diagnosed and resolved a longstanding **JWT authentication** defect blocking authorized ad uploads through tracing browser network requests and API logs by utilizing Chrome’s network tracer; hardened backend authorization and eliminated the recurring upload-failure path for authenticated advertisers through user-id unique-identifier matching at runtime.
-• Independently built and shipped a standalone product-discovery application webpage which supports minimum of 50K+ MongoDB product records using **React.js, Vite.js, FastAPI, and MongoDB**.
-• Designed tokenized multi-field search, aggregation-based faceted filtering with dynamic counts, supplier grouping, and pagination alongside asynchronous progressive loading to enable users to search and refine tens of thousands of SKUs in a single interface with minimal latency.
-• Shipped the platform’s first end-to-end commenting system as embedded webpage section, implementing threaded replies, likes, edits, notifications, reporting, and admin moderation through **10 RESTful API endpoints**.
-• Instantiated per-user rate limiting and a 3-report auto-hide pipeline, automating first-line abuse moderation, through querying recent records based on user ID through MongoDB; to be integrated with Redis in the future.
+- Collaborated within a team of 4 developers paired with a senior developer mentor to launch the new Fashion Index 3.0 web platform, owning the B2B advertising module across **Next.js, Express.js, MongoDB, and AWS S3** so advertisers on a platform with 1,000+ registered brands could upload campaigns and admins could review submissions before live serving.
+- Designed the ad campaign lifecycle state machine with 6 statuses using centralized backend transition guards, role-aware moderation controls, unread admin queues, scheduled expiry jobs, and **MongoDB TTL cleanup** to support review and retention workflows.
+- Diagnosed and resolved a longstanding **JWT authentication** defect blocking authorized ad uploads through tracing browser network requests and API logs by utilizing Chrome’s network tracer; hardened backend authorization and eliminated the recurring upload-failure path for authenticated advertisers through user-id unique-identifier matching at runtime.
+- Independently built and shipped a standalone product-discovery application webpage which supports minimum of 50K+ MongoDB product records using **React.js, Vite.js, FastAPI, and MongoDB**.
+- Designed tokenized multi-field search, aggregation-based faceted filtering with dynamic counts, supplier grouping, and pagination alongside asynchronous progressive loading to enable users to search and refine tens of thousands of SKUs in a single interface with minimal latency.
+- Shipped the platform’s first end-to-end commenting system as embedded webpage section, implementing threaded replies, likes, edits, notifications, reporting, and admin moderation through **10 RESTful API endpoints**.
+- Instantiated per-user rate limiting and a 3-report auto-hide pipeline, automating first-line abuse moderation, through querying recent records based on user ID through MongoDB; to be integrated with Redis in the future.
 
 ### Wanglan General Technology · Software Engineer Intern
 
-• Developed **RESTful APIs** using **Java and Spring Boot** for factory management modules including work orders, inventory, and purchasing, implementing authentication, validation, pagination, and API documentation for reliable service integration.
-• Optimized **MySQL and Redis** data access with indexing, batch operations, Redis caching, and query path refactoring, **reducing average query latency by 23%** across frequently used factory management workflows.
-• Implemented backend logic through **DTO validation, service layer orchestration, and DAO query methods** powering React based factory management dashboards that enabled different user groups to monitor production orders, work in progress, and inventory in real time.
-• Improved software quality through **JUnit testing, integration testing, CI/CD pipelines, Docker deployments, GitHub Actions**, peer code reviews, and production issue troubleshooting in an **Agile team of six**, maintaining **90% coverage** across assigned service modules.
+- Developed **RESTful APIs** using **Java and Spring Boot** for factory management modules including work orders, inventory, and purchasing, implementing authentication, validation, pagination, and API documentation for reliable service integration.
+- Optimized **MySQL and Redis** data access with indexing, batch operations, Redis caching, and query path refactoring, **reducing average query latency by 23%** across frequently used factory management workflows.
+- Implemented backend logic through **DTO validation, service layer orchestration, and DAO query methods** powering React based factory management dashboards that enabled different user groups to monitor production orders, work in progress, and inventory in real time.
+- Improved software quality through **JUnit testing, integration testing, CI/CD pipelines, Docker deployments, GitHub Actions**, peer code reviews, and production issue troubleshooting in an **Agile team of six**, maintaining **90% coverage** across assigned service modules.
 
 ## Featured projects
 
